@@ -54,7 +54,9 @@ Visando estimular um estilo de vida mais saudável você idealizou uma startup q
             - Cidade
             - Estado
 
+## Layout 
 
+https://www.figma.com/file/wHTsMeg2oVdW96ptraU2Gb/GratiBox?node-id=0%3A1
 
 ## Observações
 
