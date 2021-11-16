@@ -62,7 +62,9 @@ Visando estimular um estilo de vida mais saudável você idealizou uma startup q
 - Use feature branch
 - Use eslint/prettier
 - Utilize variáveis de ambiente
-- O uso do husky é opcional
+- A API deve possuir testes de integração em todas as rotas
+- Faça ao menos um teste E2E com Cypress
+- Forneça um dump do banco de dados
 - Os recurcos (imagens e cores estão nesse repositório)
 
 ## Bônus
