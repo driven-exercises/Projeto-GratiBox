@@ -1,5 +1,10 @@
 # GratiBox
 
+<p align="center" >
+<img src="https://raw.githubusercontent.com/driven-exercises/Projeto-GratiBox/main/image05.webp?token=ACS2WYVXS7ARD4COFRB36TLBSP7CQ" width="300" height="300"/>
+</p>
+
+
 ## Problema
 
 Visando estimular um estilo de vida mais saudável você idealizou uma startup que entrega box com produtos saudáveis e de #gratidão. Os clientes poderão escolher entre dois planos de assinatura recorrente, semanal ou mensal. Cada box contém produtos sortidos como chás, produtos orgânicos, incensos. Os clientes não podem escolher os produtos e não sabem o que será enviado em cada box. 😇
@@ -65,8 +70,8 @@ Visando estimular um estilo de vida mais saudável você idealizou uma startup q
 
 **Bônus 1: Avaliar**
     - O cliente poderá visualizar uma lista de entregas realizadas e avalia-las de duas formas:
-        - Positivo 🙏
-        - Negativo 👎: Para avaliações negativas deverá abrir uma nova página onde o cliente poderá marcar múltiplos item e adicionar um comentário.
+    Positivo 🙏
+    Negativo 👎: Para avaliações negativas deverá abrir uma nova página onde o cliente poderá marcar múltiplos item e adicionar um comentário.
     - Para esse bônus você pode simular no banco dados de entregas ocorridas, foque apenas na avalição.
 
 **Bônus 2: API Correios**
