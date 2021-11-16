@@ -70,9 +70,12 @@ Visando estimular um estilo de vida mais saudável você idealizou uma startup q
 
 **Bônus 1: Avaliar**
     - O cliente poderá visualizar uma lista de entregas realizadas e avalia-las de duas formas:
-    Positivo 🙏
-    Negativo 👎: Para avaliações negativas deverá abrir uma nova página onde o cliente poderá marcar múltiplos item e adicionar um comentário.
+</br></br>
+    - Positivo 🙏 </br></br>
+    - Negativo 👎: </br>  
+    - Para avaliações negativas deverá abrir uma nova página onde o cliente poderá marcar múltiplos item e adicionar um comentário.
     - Para esse bônus você pode simular no banco dados de entregas ocorridas, foque apenas na avalição.
+
 
 **Bônus 2: API Correios**
 - Para esse bônus você poderá usar uma lib que retorna os dados do endereço com base no CEP, sendo assim, na sua aplicação quando o cliente digitar o CEP deve preencher os dados de endereço, cidade e estado automagicamente.
