@@ -67,7 +67,7 @@ https://www.figma.com/file/wHTsMeg2oVdW96ptraU2Gb/GratiBox?node-id=0%3A1
 - A API deve possuir testes de integração em todas as rotas
 - Faça ao menos um teste E2E com Cypress
 - Forneça um dump do banco de dados
-- Os recurcos (imagens e cores estão nesse repositório)
+- Os recursos (imagens e cores estão nesse repositório)
 
 ## Bônus
 
