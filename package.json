@@ -1,4 +1,8 @@
 {
+  "name": "projeto-gratibox-back",
+  "description": "<p align=\"center\" > <img src=\"https://github.com/driven-exercises/Projeto-GratiBox/blob/a09f21f55810dd55c09230dd88ed027151e81043/image05.webp\" width=\"300\" height=\"300\"/> </p>",
+  "version": "1.0.0",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "NODE_ENV=production npx nodemon ./src/server.js",
@@ -14,6 +18,7 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
     "pg": "^8.7.1"
   },
   "devDependencies": {
@@ -30,10 +35,6 @@
     "prettier": "2.4.1",
     "supertest": "^6.1.6"
   },
-  "name": "projeto-gratibox-back",
-  "description": "<p align=\"center\" > <img src=\"https://github.com/driven-exercises/Projeto-GratiBox/blob/a09f21f55810dd55c09230dd88ed027151e81043/image05.webp\" width=\"300\" height=\"300\"/> </p>",
-  "version": "1.0.0",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FranciscaFigueiredo/Projeto-GratiBox-Back.git"
