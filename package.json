@@ -24,9 +24,11 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-import": "^2.25.3",
+    "faker": "^5.5.3",
     "husky": "^7.0.4",
     "jest": "^27.3.1",
-    "prettier": "2.4.1"
+    "prettier": "2.4.1",
+    "supertest": "^6.1.6"
   },
   "name": "projeto-gratibox-back",
   "description": "<p align=\"center\" > <img src=\"https://github.com/driven-exercises/Projeto-GratiBox/blob/a09f21f55810dd55c09230dd88ed027151e81043/image05.webp\" width=\"300\" height=\"300\"/> </p>",
