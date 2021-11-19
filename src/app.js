@@ -4,6 +4,7 @@ import cors from 'cors';
 import { signUp } from './controllers/signUp.js';
 import { login } from './controllers/login.js';
 import { getUserPlan } from './controllers/subscriptions.js';
+import { auth } from './middlewares/auth.js';
 
 const app = express();
 app.use(cors());
@@ -15,8 +16,8 @@ app.post('/sign-up', signUp);
 // ------ LOGIN ------
 app.post('/login', login);
 
-// ------ LOGIN ------
-app.get('/plan', getUserPlan);
+// ------ PLANS ------
+app.get('/plan', auth, getUserPlan);
 
 export {
     app,
