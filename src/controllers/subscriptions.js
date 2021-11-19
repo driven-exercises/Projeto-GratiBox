@@ -2,7 +2,6 @@ import jwt from 'jsonwebtoken';
 import { connection } from '../database/database.js';
 
 async function getUserPlan(req, res) {
-    // console.log(res.locals.user);
     const { token } = req.body;
     let userId = null;
 
@@ -14,8 +13,6 @@ async function getUserPlan(req, res) {
     } catch (error) {
         return res.sendStatus(401);
     }
-
-    console.log(userId);
 
     try {
         const planUser = await connection.query('SELECT * FROM subscriptions WHERE client_id = $1;', [userId]);
