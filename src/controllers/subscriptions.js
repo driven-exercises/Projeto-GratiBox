@@ -10,14 +10,13 @@ async function getUserPlan(req, res) {
         const validateToken = jwt.verify(token, key);
 
         userId = validateToken.idUser;
-        console.log(userId);
     } catch (error) {
         return res.sendStatus(401);
     }
 
     try {
         const planUser = await connection.query('SELECT * FROM subscriptions WHERE client_id = $1;', [userId]);
-        console.log(planUser.rows);
+
         return res.status(201).send(planUser.rows);
     } catch (error) {
         return res.status(500).send({ message: 'O banco de dados está offline' });
